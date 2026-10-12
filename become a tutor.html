@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeerLearn - Become a Tutor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>PeerLearn</h1>
+        <p>Learn from students who have aced the subject.</p>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="tutor.html">Tutor Profile</a>
+            <a href="become-a-tutor.html">Become a Tutor</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Become a Tutor</h2>
+
+            <p>
+                Share your knowledge, help other students succeed,
+                and earn money by teaching subjects you enjoy.
+            </p>
+
+            <h3>Why Join PeerLearn?</h3>
+            <ul>
+                <li>Help other students learn.</li>
+                <li>Teach subjects you know well.</li>
+                <li>Choose your hourly rate.</li>
+                <li>Improve your teaching skills.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Tutor Registration Form</h2>
+
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject You Want to Teach</label>
+                <select id="subject" name="subject" required>
+                    <option value="">Select a subject</option>
+                    <option value="Mathematics">Mathematics</option>
+                    <option value="Physics">Physics</option>
+                    <option value="Chemistry">Chemistry</option>
+                </select>
+
+                <label for="experience">Teaching Experience</label>
+                <input type="text" id="experience"
+                       name="experience" required>
+
+                <label for="rate">Hourly Rate (₹)</label>
+                <input type="number" id="rate" name="rate"
+                       min="1" required>
+
+                <label for="message">Tell Us About Yourself</label>
+                <textarea id="message" name="message"
+                          rows="4" required></textarea>
+
+                <button type="submit">Register as a Tutor</button>
+            </form>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <p>© 2026 PeerLearn · hello@peerlearn.example</p>
+    </footer>
+
+</body>
+</html>
